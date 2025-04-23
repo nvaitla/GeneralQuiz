@@ -1,2 +1,24 @@
 # GeneralQuiz
 Non Pharma Aptitude
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redirecting...</title>
+    <script>
+      window.onload = function () {
+        const links = [
+          "https://forms.office.com/r/wm7L9ssbEm",
+          "https://forms.office.com/r/MwbtgTy7kk",
+	        "https://forms.office.com/r/bD6nBM3YUF",
+	        "https://forms.office.com/r/74Acp6c0fa",
+	        "https://forms.office.com/r/qQqMY00MAn",
+        ];
+        const randomIndex = Math.floor(Math.random() * links.length);
+        window.location.href = links[randomIndex];
+      };
+    </script>
+  </head>
+  <body>
+    <p>Redirecting you to your quiz...</p>
+  </body>
+</html>
