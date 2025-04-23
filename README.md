@@ -1,0 +1,2 @@
+# GeneralQuiz
+Non Pharma Aptitude
